@@ -5,7 +5,7 @@ import joblib
 from groq import Groq
 import os
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = ""
 model = Groq()
 modelPKL = joblib.load("dbs.pkl")
 
